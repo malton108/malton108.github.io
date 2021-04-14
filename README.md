@@ -1,2 +1,3 @@
-# malton108.github.io
-Github Pages Site
+# Texas Gold Rush
+
+- [Prototype](/prototype/index.html)
