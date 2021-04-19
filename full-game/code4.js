@@ -491,7 +491,7 @@ gdjs.Level_322Code.GDHorseObjects1_1final.length = 0;gdjs.Level_322Code.conditio
 {
 gdjs.copyArray(runtimeScene.getObjects("Horse"), gdjs.Level_322Code.GDHorseObjects2);
 for(var i = 0, k = 0, l = gdjs.Level_322Code.GDHorseObjects2.length;i<l;++i) {
-    if ( gdjs.Level_322Code.GDHorseObjects2[i].getX() >= 1200 ) {
+    if ( gdjs.Level_322Code.GDHorseObjects2[i].getX() >= 1260 ) {
         gdjs.Level_322Code.condition0IsTrue_1.val = true;
         gdjs.Level_322Code.GDHorseObjects2[k] = gdjs.Level_322Code.GDHorseObjects2[i];
         ++k;
@@ -3220,7 +3220,7 @@ gdjs.Level_322Code.GDPlayerObjects2_1final.length = 0;gdjs.Level_322Code.conditi
 {
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.Level_322Code.GDPlayerObjects3);
 for(var i = 0, k = 0, l = gdjs.Level_322Code.GDPlayerObjects3.length;i<l;++i) {
-    if ( gdjs.Level_322Code.GDPlayerObjects3[i].getX() >= 860 ) {
+    if ( gdjs.Level_322Code.GDPlayerObjects3[i].getX() >= 920 ) {
         gdjs.Level_322Code.condition0IsTrue_1.val = true;
         gdjs.Level_322Code.GDPlayerObjects3[k] = gdjs.Level_322Code.GDPlayerObjects3[i];
         ++k;
