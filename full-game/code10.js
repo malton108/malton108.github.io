@@ -34,7 +34,7 @@ gdjs.Win_32Scene_322Code.eventsList0 = function(runtimeScene) {
 gdjs.Win_32Scene_322Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Win_32Scene_322Code.conditionTrue_1 = gdjs.Win_32Scene_322Code.condition0IsTrue_0;
-gdjs.Win_32Scene_322Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(24163372);
+gdjs.Win_32Scene_322Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(24170868);
 }
 }if (gdjs.Win_32Scene_322Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Mute"), gdjs.Win_32Scene_322Code.GDMuteObjects1);
@@ -127,7 +127,7 @@ gdjs.Win_32Scene_322Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariab
 }if ( gdjs.Win_32Scene_322Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Win_32Scene_322Code.conditionTrue_1 = gdjs.Win_32Scene_322Code.condition1IsTrue_0;
-gdjs.Win_32Scene_322Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8981260);
+gdjs.Win_32Scene_322Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(24174076);
 }
 }}
 if (gdjs.Win_32Scene_322Code.condition1IsTrue_0.val) {
@@ -156,7 +156,7 @@ gdjs.Win_32Scene_322Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariab
 }if ( gdjs.Win_32Scene_322Code.condition1IsTrue_0.val ) {
 {
 {gdjs.Win_32Scene_322Code.conditionTrue_1 = gdjs.Win_32Scene_322Code.condition2IsTrue_0;
-gdjs.Win_32Scene_322Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(24168300);
+gdjs.Win_32Scene_322Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(24175756);
 }
 }}
 }
@@ -181,7 +181,7 @@ gdjs.Win_32Scene_322Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariab
 }if ( gdjs.Win_32Scene_322Code.condition1IsTrue_0.val ) {
 {
 {gdjs.Win_32Scene_322Code.conditionTrue_1 = gdjs.Win_32Scene_322Code.condition2IsTrue_0;
-gdjs.Win_32Scene_322Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(24169412);
+gdjs.Win_32Scene_322Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(24176868);
 }
 }}
 }

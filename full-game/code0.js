@@ -121,9 +121,16 @@ gdjs.Menu_32SceneCode.GDSkullObjects1.length = k;}if (gdjs.Menu_32SceneCode.cond
 
 
 gdjs.Menu_32SceneCode.condition0IsTrue_0.val = false;
+gdjs.Menu_32SceneCode.condition1IsTrue_0.val = false;
 {
 gdjs.Menu_32SceneCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-}if (gdjs.Menu_32SceneCode.condition0IsTrue_0.val) {
+}if ( gdjs.Menu_32SceneCode.condition0IsTrue_0.val ) {
+{
+{gdjs.Menu_32SceneCode.conditionTrue_1 = gdjs.Menu_32SceneCode.condition1IsTrue_0;
+gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20802564);
+}
+}}
+if (gdjs.Menu_32SceneCode.condition1IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Mute"), gdjs.Menu_32SceneCode.GDMuteObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Skull"), gdjs.Menu_32SceneCode.GDSkullObjects1);
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Text-Flash");
@@ -242,7 +249,7 @@ gdjs.Menu_32SceneCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.Menu_32SceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Menu_32SceneCode.conditionTrue_1 = gdjs.Menu_32SceneCode.condition1IsTrue_0;
-gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20771020);
+gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20776172);
 }
 }}
 if (gdjs.Menu_32SceneCode.condition1IsTrue_0.val) {
@@ -271,7 +278,7 @@ gdjs.Menu_32SceneCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.Menu_32SceneCode.condition1IsTrue_0.val ) {
 {
 {gdjs.Menu_32SceneCode.conditionTrue_1 = gdjs.Menu_32SceneCode.condition2IsTrue_0;
-gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20769676);
+gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20777260);
 }
 }}
 }
@@ -296,7 +303,7 @@ gdjs.Menu_32SceneCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.Menu_32SceneCode.condition1IsTrue_0.val ) {
 {
 {gdjs.Menu_32SceneCode.conditionTrue_1 = gdjs.Menu_32SceneCode.condition2IsTrue_0;
-gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20770660);
+gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20778252);
 }
 }}
 }
@@ -324,7 +331,7 @@ gdjs.Menu_32SceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(
 }if ( gdjs.Menu_32SceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Menu_32SceneCode.conditionTrue_1 = gdjs.Menu_32SceneCode.condition1IsTrue_0;
-gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20771100);
+gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20779508);
 }
 }}
 if (gdjs.Menu_32SceneCode.condition1IsTrue_0.val) {
@@ -347,7 +354,7 @@ gdjs.Menu_32SceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(
 }if ( gdjs.Menu_32SceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Menu_32SceneCode.conditionTrue_1 = gdjs.Menu_32SceneCode.condition1IsTrue_0;
-gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20772652);
+gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20780260);
 }
 }}
 if (gdjs.Menu_32SceneCode.condition1IsTrue_0.val) {
