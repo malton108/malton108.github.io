@@ -135,6 +135,7 @@ gdjs.copyArray(runtimeScene.getObjects("Skull"), gdjs.Menu_32SceneCode.GDSkullOb
 }{for(var i = 0, len = gdjs.Menu_32SceneCode.GDSkullObjects1.length ;i < len;++i) {
     gdjs.Menu_32SceneCode.GDSkullObjects1[i].hide();
 }
+}{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
 }}
 
 }
@@ -264,7 +265,7 @@ gdjs.Menu_32SceneCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.Menu_32SceneCode.condition1IsTrue_0.val ) {
 {
 {gdjs.Menu_32SceneCode.conditionTrue_1 = gdjs.Menu_32SceneCode.condition2IsTrue_0;
-gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15495868);
+gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20769676);
 }
 }}
 }
@@ -289,7 +290,7 @@ gdjs.Menu_32SceneCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.Menu_32SceneCode.condition1IsTrue_0.val ) {
 {
 {gdjs.Menu_32SceneCode.conditionTrue_1 = gdjs.Menu_32SceneCode.condition2IsTrue_0;
-gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15496852);
+gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20770660);
 }
 }}
 }
@@ -317,7 +318,7 @@ gdjs.Menu_32SceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(
 }if ( gdjs.Menu_32SceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Menu_32SceneCode.conditionTrue_1 = gdjs.Menu_32SceneCode.condition1IsTrue_0;
-gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15490540);
+gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20771100);
 }
 }}
 if (gdjs.Menu_32SceneCode.condition1IsTrue_0.val) {
@@ -340,7 +341,7 @@ gdjs.Menu_32SceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(
 }if ( gdjs.Menu_32SceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Menu_32SceneCode.conditionTrue_1 = gdjs.Menu_32SceneCode.condition1IsTrue_0;
-gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15584604);
+gdjs.Menu_32SceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20772652);
 }
 }}
 if (gdjs.Menu_32SceneCode.condition1IsTrue_0.val) {
